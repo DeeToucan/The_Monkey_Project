@@ -29,7 +29,7 @@ function setup() {
   InvGround.visible=false;
   
   //creates the monkey
-  monkey=createSprite(100,400,20,20);
+  monkey=createSprite(100,300,20,20);
   monkey.addAnimation("monkey_running",monkey_running);
   monkey.scale=0.1;
   //monkey.debug=true;
